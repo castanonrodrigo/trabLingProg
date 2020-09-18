@@ -21,3 +21,8 @@ void Nacional::pegandoInt(){
   cout << dadosNacional[6].getNumeroEstado() << endl;
   /* return dadosNacional[8].getNumeroEstado(); */
 };
+
+double Nacional::getMediaMovel(){
+  return dadosNacional[0].getMediaMovel();
+
+};

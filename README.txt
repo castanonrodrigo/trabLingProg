@@ -1,0 +1,3 @@
+- Ao rodar o programa, o menu aparece e mostrando as opcoes de dados a serem visualizados e quais teclas devem ser apertadas para selecionar uma opcao.
+- Apos visualizar um resultado, o usario pode voltar para o menu inicial ao apertar qualquer tecla numerica.
+- A qualquer momento o usuario tem a opcao te entrar com "-1" para terminar a execucao do programa.

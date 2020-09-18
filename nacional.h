@@ -12,10 +12,12 @@ class Nacional {
     string getEstabilidadeNacional();
     //retorna soma total dos casos
     int getSomaCasos();
-    void pegandoInt();
   private:
+    //funcao que calcula media movel nacional
+    double getMediaMovelNacional();
     //armazena dados referentes ao Brasil;
     vector<Estadual> dadosNacional;
+
     Estadual rj;
     Estadual sp;
     Estadual mg;
@@ -23,10 +25,9 @@ class Nacional {
     Estadual pe;
     Estadual rs;
     Estadual rn;
-    Estadual sa;
+    Estadual ba;
     Estadual am;
     Estadual pr;
     
-    /* static Estadual arrEstados[10] = {rj, sp, mg, es, pe, rs, rn, sa, am, pr}; */
 
 };

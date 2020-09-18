@@ -16,14 +16,12 @@ class Estadual{
     //retorna estabilidade do estado
     string getEstabilidadeEstado();
     //retorna soma dos casos do estado
-    int getSomaCasosEstado();
-    int getNumeroEstado();
+    int getSomaObitosEstado();
   private:
     //nome do estado
     string nome;
-    //armazena dados de óbito dos últimos 10 dias
+    //armazena dados de óbito dos últimos 10 dias no estado
     vector<int> dadosEstado;
-    int numeroEstado;
     
 };
 
